@@ -6,8 +6,8 @@ public class StringTokenizerDemo {
 	public static void main(String[] args) {
 		
 
-	String s=new String("Hello madhu");
-	StringTokenizer token=new StringTokenizer(s);
+	String s=new String("Hello madhu pooja");
+		StringTokenizer token =new StringTokenizer(s);
 	System.out.println(token.countTokens());
 	while(token.hasMoreElements()){
 		System.out.println(token.nextElement());

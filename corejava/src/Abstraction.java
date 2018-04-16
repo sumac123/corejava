@@ -1,4 +1,3 @@
-
 abstract class AbstractClass
 {
     abstract void abstractMethod();
@@ -12,7 +11,7 @@ class ConcreteClass extends AbstractClass
     {
         System.out.println("hkhk");
     }
-    public void AbstractClass(int id){
+    public void abstractClass(int id){
     	id1=2;
     	System.out.println(id1);
     }
@@ -27,7 +26,7 @@ public class Abstraction
         //ConcreteClass implements abstract method,
         //so we can create object to ConcreteClass
         AbstractClass A1 = C;
-       C.AbstractClass(0);
+       C.abstractClass(0);
         //ConcreteClass object is auto-upcasted to AbsractClass
     }
 }
