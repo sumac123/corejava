@@ -3,7 +3,7 @@ package patterns;
 public class DimondPattran {
 
 	public static void main(String[] args) {
-		int n = 3;
+		int n = 5;
 		int space = n / 2, star = 1;
 		// Outer for loop for number of lines
 		for (int i = 1; i <= n; i++) {

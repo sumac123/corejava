@@ -4,7 +4,7 @@ public class StringOccarance {
 
 	public static void main(String[] args)
 	{
-		String s="pooja1";
+		String s="pooja1 is pooja1";
 		char ch;
 		int count=0;
 		for(char i='a';i<'z';i++)

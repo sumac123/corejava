@@ -16,14 +16,14 @@ public class SortingHashMap {
 	public static void main(String[] args) {
 		
 		HashMap<String, Integer> unsorted = new HashMap<String, Integer>();
-		unsorted.put("madhu", 7);
+		unsorted.put("madhu", 1);
 		unsorted.put("narendra", 10);
 		unsorted.put("babu", 3);
 		unsorted.put("pooja", 2);
 		unsorted.put("amruta", 4);
 		unsorted.put("praveen", 5);
 		unsorted.put("jayasree", 8);
-		unsorted.put("shanmukha",1);
+		unsorted.put("shanmukha",9);
 		
 		System.out.println("Map before sorting...");
 		printMap(unsorted);
@@ -52,10 +52,7 @@ public class SortingHashMap {
 					return o2.getValue().compareTo(o1.getValue());
 				}
 			}
-
-			
-			
-			
+		
 		});
 		
 		Map<String,Integer> maps=new LinkedHashMap<String, Integer>();
