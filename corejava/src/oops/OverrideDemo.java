@@ -2,18 +2,27 @@ package oops;
 
 public class OverrideDemo {
 	public static void main(String[] args) {
-		System.out.println("Inside main(String[] args) method ....");
-	}
+		 int aj=65;
+		for(int i=4;i>=1;i--){
+			
+			for(int  k=4;k>=i;k--){
+				System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++){
+				System.out.print((char)aj);
+				aj++;
+			}
+			
+			
+			for(int j=i;j>1;j--){
+				System.out.print((char)(aj-2));
+				aj--;
+			}
+			aj=65;
+			System.out.println();
+			
+		}
 
-	public static void main(Integer[] args) {
-		System.out.println("Inside main(Integer[] args) method ....");
 	}
+	    }
 
-	/**
-	 * * Another overloaded main method which accepts Double[] instead of *
-	 * String[] as argument. * @param args
-	 */
-	public static void main(Double[] args) {
-		System.out.println("Inside main(Double[] args) method ....");
-	}
-}

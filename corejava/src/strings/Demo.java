@@ -15,6 +15,9 @@ public class Demo {
 		System.out.println(s2);
 		System.out.println(s.equals(s4));
 		System.out.println(s==s4);
+		String a,b="pooja";
+
+		
 	}
 
 }
