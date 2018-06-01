@@ -32,7 +32,6 @@ class ArrayListCustom<E> {
 	 * increaing current capacity of ArrayList
 	 */
 	private void ensureCapacity() {
-
 		int increasdNewCapacity = elementData.length * 2;
 		elementData = Arrays.copyOf(elementData, increasdNewCapacity);
 	}
@@ -88,7 +87,6 @@ public class CustomizedArrayList {
 		al.add(2);
 		al.add(3);
 		al.add(3);
-
 		al.display();
 		System.out.println(al.get(3));
 
