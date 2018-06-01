@@ -16,7 +16,6 @@ class ArrayListCustom<E> {
 	public ArrayListCustom() {
 		elementData = new Object[INITIAL_CAPACITY];
 	}
-
 	/*
 	 * adding elements
 	 */
