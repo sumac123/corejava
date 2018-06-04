@@ -12,6 +12,7 @@ class ArrayListCustom<E> {
 
 	/*
 	 * costructor for Custom ArrayList
+	 * 
 	 */
 	public ArrayListCustom() {
 		elementData = new Object[INITIAL_CAPACITY];
@@ -77,7 +78,9 @@ class ArrayListCustom<E> {
 			System.out.println("elemets" + elementData[i]);
 		}
 	}
+
 }
+
 
 public class CustomizedArrayList {
 	public static void main(String... agrs) {
