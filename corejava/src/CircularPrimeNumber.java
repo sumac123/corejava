@@ -14,6 +14,7 @@ public class CircularPrimeNumber {
 		for (int temp = num; temp > 0; temp /= 10) {
 			num_of_digits++;
 			divisor_part *= 10;
+			
 		}
 		divisor_part /= 10;
 		System.out.println("Output: ");
