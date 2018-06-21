@@ -19,7 +19,8 @@ public class CircularPrimeNumber {
 		divisor_part /= 10;
 		System.out.println("Output: ");
 		do {
-			System.out.println("        " + circular_num);
+			System.out.println(""+divisor_part);
+			System.out.println("" + circular_num);
 			circular_num = circulate(circular_num, divisor_part);
 			if (!is_Prime(circular_num))
 				all_Prime = false;
