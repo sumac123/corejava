@@ -20,7 +20,6 @@ public class ArrayListRemoveDuplicates {
        //without set
 	    List<Integer>  newList = new ArrayList<Integer>();
 	    for (int i = 0; i < arraylist.size() ; i++) {
-	    	
 			if (!newList.contains(arraylist.get(i)))
 	            newList.add( (arraylist.get(i)));
 	    }
