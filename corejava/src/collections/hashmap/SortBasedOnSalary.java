@@ -32,10 +32,14 @@ public class SortBasedOnSalary {
 		System.out.println("After sorting based on Salary");
 		Map<String,Employee> mrc=sortedMap(map);
 		printMap(mrc);
-		
-		
-		
-	}
+	}		
+private static Map<String,Employee> sorted(HashMap<String, Employee> map){
+	
+	
+	return map;
+	
+}
+	
 	private static Map<String,Employee> sortedMap(HashMap<String, Employee> map) {
 		
 		List<Entry<String, Employee>> l=new LinkedList<Entry<String, Employee>>(map.entrySet());

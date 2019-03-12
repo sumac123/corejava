@@ -44,7 +44,20 @@ public class RemoveDuplicatesJavaExample {
 
 	public static void main(String[] args) {
 		removeDuplicates(new int[] { 4, 3, 2, 4, 9, 2 });
-
+		int[] arr = {1,2,3,6,7,8};
+		int length = arr.length;
+		
+		int indexes = 10;
+		int values = 0;
+		
+		for (int i = 0; i < length; i++) {
+			indexes += i+1;
+			values += arr[i];
+		}
+		
+		int result = indexes - values;
+		
+		System.out.println("Missing number is: "+result);
 	}
 
 }

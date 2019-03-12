@@ -25,5 +25,9 @@ public static int removeDuplicateElements(int arr[], int n){
         //printing array elements  
         for (int i=0; i<length; i++)  
            System.out.print(arr[i]+" ");  
-    }  
+        
+        
+    } 
+    
+    
 } 
