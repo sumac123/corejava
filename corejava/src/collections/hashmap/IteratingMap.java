@@ -19,9 +19,21 @@ public class IteratingMap {
 		
 		for(Entry<String, Integer> m:unsorted.entrySet()){
 			System.out.println(m.getKey()+" "+m.getValue());
+	
+			
+
 			
 		}
-	
+		Map<Employee,String> g=new HashMap<>();
+		g.put(new Employee(1, "pooja", 20), "pooja");
+		g.put(new Employee(2, "deepi", 30), "deei");
+		g.keySet().forEach(System.out::println);
+		
+		Empl e=new Empl("pooja");
+		Empl e1=new Empl("pooja");
+		e=e1;
+		System.out.println(e==e1);
+		System.out.println(e.equals(e1));
 	
 	}
 
