@@ -18,12 +18,14 @@ public class ArrayListRemoveDuplicates {
 	    arraylist.addAll(hashset);
 	    System.out.println("After Removing duplicate elements:"+arraylist);
        //without set
+  
 	    List<Integer>  newList = new ArrayList<Integer>();
 	    for (int i = 0; i < arraylist.size() ; i++) {
 			if (!newList.contains(arraylist.get(i)))
 	            newList.add( (arraylist.get(i)));
 	    }
-System.out.println(newList);
+	    	System.out.println(newList);
+	    	
 	}
 
 }
