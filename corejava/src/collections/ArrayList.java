@@ -38,7 +38,8 @@ public class ArrayList {
 		li.stream().distinct().forEach(System.out::println);
 		List<Integer> q = l3.stream().map(Integer::valueOf).collect(Collectors.toList());
 		System.out.println(q);
-		Set l7 = (Set) li.stream().filter(n -> li.stream().filter(x -> x.equals(n)).count() > 1).collect(Collectors.toSet());
+		Set l7 = (Set) li.stream().filter(n -> li.stream().filter(x -> x.equals(n)).count() > 1)
+				.collect(Collectors.toSet());
 		l3.stream().limit(3).forEach(System.out::println);
 		System.out.println("l7" + l7);
 		int sum = IntStream.range(1, 500).reduce(0, Integer::sum);
@@ -49,14 +50,14 @@ public class ArrayList {
 		lm.add(3);
 
 		Integer i = lm.stream().max(Comparator.comparing(Integer::valueOf)).get();
-		
+
 		System.out.println("mi::" + i);
 		Map<Integer, Integer> s = new HashMap<>();
 		System.out.println("df" + s.put(1, 2));
 		System.out.println("df" + s.put(2, 4));
-String sa="ppooja";
-StringBuilder sb=new StringBuilder();
-sa.chars().distinct().forEach(a->sb.append((char)a));
+		String sa = "ppooja";
+		StringBuilder sb = new StringBuilder();
+		sa.chars().distinct().forEach(a -> sb.append((char) a));
 
 	}
 
