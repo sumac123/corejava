@@ -66,22 +66,12 @@ public final class Employee {
 		return salary;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+
 
 	
-	
-	
-	/*public static void main(String[] args) {
-		Employee emp=new Employee(1,"amruta",30000);
-		Employee emp1=new Employee(2,"jayasthree",30000);
-		Employee emp2=new Employee(1,"amruta",30000);
-		
-		HashMap<String,Employee> m=new HashMap<String, Employee>();
-		m.put("100", emp);
-		m.put("200", emp1);
-		m.put("300", emp2);
-		System.out.println(m.size());
-		System.out.println(emp.equals(emp2));
-	
 
-}*/
 }
