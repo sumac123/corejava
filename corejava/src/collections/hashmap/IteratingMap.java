@@ -15,7 +15,7 @@ public class IteratingMap {
 		unsorted.put("ramu", 3);
 		unsorted.put("eshwar", 2);
 		unsorted.put("pooja", 4);
-	
+
 		unsorted.put("raju", 8);
 
 		for (Entry<String, Integer> m : unsorted.entrySet()) {
@@ -54,7 +54,12 @@ public class IteratingMap {
 				sb1.append(str);
 			}
 		}
-		System.out.println(sb1);
+		String sq = "poooo";
+		StringBuilder s3 = new StringBuilder();
+
+		sq.chars().distinct().forEach(c -> s3.append((char) c));
+		System.out.println(s3);
+		sq.chars().distinct().forEach(c -> s3.append((char) c));
 	}
 
 }
