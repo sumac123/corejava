@@ -54,12 +54,12 @@ public class IteratingMap {
 				sb1.append(str);
 			}
 		}
-		String sq = "poooo";
-		StringBuilder s3 = new StringBuilder();
 
-		sq.chars().distinct().forEach(c -> s3.append((char) c));
-		System.out.println(s3);
-		sq.chars().distinct().forEach(c -> s3.append((char) c));
+	}
+
+	public String recu(String s) {
+	return recu(s.substring(0)+s.charAt(1));
+	
 	}
 
 }
