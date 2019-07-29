@@ -33,8 +33,10 @@ public class ArrayList {
 		System.out.println(l2);
 
 		li.stream().distinct().filter(n -> (Integer) n % 2 == 1).forEach(System.out::println);
+		
 		List<Integer> l3 = (List<Integer>) li.stream().map(n -> (Integer) n * 5).collect(Collectors.toList());
 		System.out.println(l3);
+		
 		li.stream().distinct().forEach(System.out::println);
 		List<Integer> q = l3.stream().map(Integer::valueOf).collect(Collectors.toList());
 		System.out.println(q);
